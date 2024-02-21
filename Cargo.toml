@@ -2,6 +2,6 @@
 name = "MemoryWork"
 version = "0.1.0"
 authors = ["Edison <memorywalker@163.com>"]
-edition = "2024"
+edition = "2021"
 
 [dependencies]
