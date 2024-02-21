@@ -52,7 +52,7 @@ jobs:
           cargo binstall --no-confirm cross
 
       - name: Build
-        run: ${{ matrix.command }} --verbose --release --target ${{ matrix.target }}
+        run: ${{ matrix.command }} build --verbose --release --target ${{ matrix.target }}
 
       - name: Build archive
         shell: bash
