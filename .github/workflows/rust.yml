@@ -18,12 +18,12 @@ jobs:
         # You can add more, for any target you'd like!
         include:
           - name: win-amd64
-            runner: windows-latest
+            os: windows-latest
             target: x86_64-pc-windows-msvc
             command: cargo
           # Android config
           #- name: android-arm
-          #  runner: ubuntu-latest
+          #  os: ubuntu-latest
           #  target: aarch64-linux-android
           #  command: cross            
 
